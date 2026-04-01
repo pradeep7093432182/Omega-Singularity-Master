@@ -1,4 +1,4 @@
-# Ω-SINGULARITY Master Framework
+# Omega-SINGULARITY Master Framework
 
 > **"Assume the absolute best, most modern, production-ready version of every idea."**
 
