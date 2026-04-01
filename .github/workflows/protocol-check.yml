@@ -1,0 +1,22 @@
+name: OMEGA-SINGULARITY Protocol Verification
+on: [push, pull_request]
+jobs:
+  verify:
+      runs-on: ubuntu-latest
+          steps:
+                - uses: actions/checkout@v4
+                      - name: Verify Protocol Existence
+                              run: |
+                                        if [ -f "OMEGA-SINGULARITY-INTEGRATOR.md" ]; then
+                                                    echo "OMEGA-SINGULARITY INTEGRATOR DETECTED."
+                                                              else
+                                                                          echo "CRITICAL FAILURE: Master Protocol Missing." && exit 1
+                                                                                    fi
+                                                                                          - name: Verify Core Orchestrator
+                                                                                                  run: |
+                                                                                                            if grep -q "The Silent Factory" README.md; then
+                                                                                                                        echo "Silent Factory Logic Confirmed."
+                                                                                                                                  else
+                                                                                                                                              echo "Documentation mismatch." && exit 1
+                                                                                                                                                        fi
+                                                                                                                                                        
