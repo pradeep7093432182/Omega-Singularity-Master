@@ -1,0 +1,37 @@
+# Antigravity Node Caches
+node_modules/
+.npm/
+
+# Environment and Secrets
+.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# Databases and Persistent Logs
+*.db
+*.sqlite
+*.log
+brain/
+*recovery.db
+
+# Project-Specific Artifacts
+projects/
+tmp/
+_tmp/
+.gemini/
+
+# Node-Specific Caches
+package-lock.json (ignore if you want people to use latest)
+yarn.lock
+
+# System and IDE Caches
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Evolution Caches
+skills/autonomous-evolution/memory.db
+!D:/antigravity/TermuxCLI/**/MASTER_PLAN.md
