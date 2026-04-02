@@ -1,0 +1,1 @@
+""" CognitiveCore — Think, Feel, Judge, Sense. ... """

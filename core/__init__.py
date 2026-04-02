@@ -1,0 +1,1 @@
+"""Omega Singularity v2 — Package init."""

@@ -1,0 +1,1 @@
+""" AutonomousTerminal — Omega's self-executing command shell. ... """

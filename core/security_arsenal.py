@@ -1,0 +1,1 @@
+""" SecurityArsenal — Omega's Kali Linux / Metasploit / OSINT integration layer. ... """

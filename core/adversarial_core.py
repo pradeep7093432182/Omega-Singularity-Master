@@ -1,0 +1,1 @@
+""" AdversarialCore — The Creator vs. Critic Internal Dialogue. ... """

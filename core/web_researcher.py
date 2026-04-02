@@ -1,0 +1,1 @@
+""" WebResearcher — Omega's deep internet research engine. ... """
